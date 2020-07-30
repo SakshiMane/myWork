@@ -882,20 +882,19 @@ input {
 		font-size: 12px;
 	}
 }
-/*
 .same {
-	margin-top:85%;
+	margin-top:10%;
 	background-color: #23395d;
 	min-height: 300px;
 	width: 100%;
 }
+
 .first, .second, .third, .fourth {
 	color: white;
-	font-size: 12px;
 	font-family: "Calibri";
 }
 .shp {
-	font-size: 20px;
+	font-size: 21px;
 	font-weight: bold;
 	padding: 10px;
 	position: absolute;
@@ -905,8 +904,51 @@ input {
 	position: absolute;
 	top:50px;
 	padding: 10px;
-	font-size: 15px;
+	font-size: 16px;
 }
+@media (min-width: 704px) {
+	.same {
+		display: inline-flex;
+	}
+}
+@media (max-width: 703px) {
+	.same {
+		min-height: 600px;
+	}
+	.shp1 {
+		position: absolute;
+		top:15px;
+	}
+	.shp2 {
+		position: absolute;
+		top:95px;
+	}
+	.shp3 {
+		position: absolute;
+		top:210px;		
+	}
+	.shp4 {
+		position: absolute;
+		top:400px;		
+	}
+	.shpb1 {
+		position: absolute;
+		top:55px;
+	}
+	.shpb2 {
+		position: absolute;
+		top:130px;
+	}
+	.shpb3 {
+		position: absolute;
+		top:250px;
+	}
+	.shpb4 {
+		position: absolute;
+		top:440px;
+	}
+}
+/*
 .end {
 	background-color: #162252;
 	height: 70px;
