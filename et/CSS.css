@@ -996,6 +996,9 @@ input.inpt {
 		position: absolute;
 		right: 15px;
 	}
+	.last {
+		padding-right: 20px;
+	}
 }
 @media (max-width: 703px) {
 	.bot {
@@ -1022,23 +1025,20 @@ input.inpt {
 		right: 25px;
 	}
 	.last {
-		display: block;
-		text-align: center;
+		margin-left: 60px;
 	}
 
 }
 @media (max-width: 375px) {
 	.last {
-		text-align-last: center;
-	}
-	.last {
 		margin-left: 15px;
+		text-align-last: center;
 	}
 	.copy {
 		position: relative;
 	}
 	.end {
-		min-height: 160px;
+		min-height: 155px;
 	}
 	.inc {
 		position: absolute;
@@ -1049,5 +1049,10 @@ input.inpt {
 		margin-top: 25px;
 		text-align: center;
 		display: block;
+	}
+}
+@media (max-width: 212px) {
+	.end {
+		min-height: 170px;
 	}
 }
