@@ -913,7 +913,7 @@ input {
 }
 @media (max-width: 703px) {
 	.same {
-		min-height: 600px;
+		min-height: 660px;
 	}
 	.shp1 {
 		position: absolute;
@@ -948,23 +948,106 @@ input {
 		top:440px;
 	}
 }
-/*
 .end {
-	background-color: #162252;
-	height: 70px;
+	background-color: #000034;
+	min-height: 120px;
 	width: 100%;
 	color: white;
 }
 .last {
 	float: left;
+	margin-left: 30px;
+	font-weight: bold;
 }
 .copy {
 	float:right;
 }
 .term {
 	padding: 10px;
+	margin-right: 10px;
 	text-decoration: underline;
 	color: white;
 }
-*/
-	
+.bot {
+	position: absolute;
+	top:150px;
+}
+.icon {
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	left: 19px;
+	top:11px;
+}
+input.inpt {
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border:1px solid white;
+	border-radius: 45px;
+	padding-left: 30px;
+	width: 200px;
+	min-height: 30px;
+	background-color:#23395d;
+	position: relative;
+}
+@media (min-width: 704px) and (max-width: 899px) {
+	.bot {
+		position: absolute;
+		right: 15px;
+	}
+}
+@media (max-width: 703px) {
+	.bot {
+		position: absolute;
+		top:520px;
+	}
+}
+/* End */ 
+@media (min-width: 376px) and (max-width: 469px) {
+	.copy {
+		position: relative;
+	}
+	.end {
+		min-width: 140px;
+	}
+	.inc {
+		position: absolute;
+		top:10px;
+		left: 15%;
+	}
+	.vit {
+		position: relative;
+		top:20px;
+		right: 25px;
+	}
+	.last {
+		display: block;
+		text-align: center;
+	}
+
+}
+@media (max-width: 375px) {
+	.last {
+		text-align-last: center;
+	}
+	.last {
+		margin-left: 15px;
+	}
+	.copy {
+		position: relative;
+	}
+	.end {
+		min-height: 180px;
+	}
+	.inc {
+		position: absolute;
+		top:10px;
+		left: 15%;
+	}
+	.vit {
+		margin-top: 25px;
+		text-align: center;
+		display: block;
+	}
+}
